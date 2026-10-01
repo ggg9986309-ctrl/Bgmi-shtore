@@ -1,0 +1,12 @@
+KIRUU STORE — ROOT FILES
+========================
+All project files are intentionally kept in ONE folder.
+Media placeholders are non-empty so GitHub tracks them.
+
+Replace the sample product images, banners, music, videos and font with your real files.
+Do not commit secret API keys.
+
+Render:
+Build Command: npm install && npm run build
+Start Command: npm start
+Node: 20

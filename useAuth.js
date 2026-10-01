@@ -1,0 +1,1 @@
+import {useEffect,useState} from "react";import {supabase} from "./supabase.js";export function useAuth(){const[user,setUser]=useState(null);useEffect(()=>{if(!supabase)return;supabase.auth.getUser().then(({data})=>setUser(data.user));const {data}=supabase.auth.onAuthStateChange((_e,s)=>setUser(s?.user||null));return()=>data.subscription.unsubscribe()},[]);return user}

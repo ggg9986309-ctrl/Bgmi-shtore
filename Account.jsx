@@ -1,0 +1,1 @@
+import React from "react";export default function Account(){return <main className="section"><p className="eyebrow">CUSTOMER AREA</p><h2>My account</h2><div className="accountGrid"><div>Profile</div><div>Orders</div><div>Wishlist</div><div>Addresses</div></div></main>}
